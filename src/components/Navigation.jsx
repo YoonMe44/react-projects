@@ -1,8 +1,8 @@
 const Navigation =()=>{
-    return<div>
+    return(
         <nav>
             <div className="logo">
-                <img src="../public/images/Apple-Logosu.png" alt="logo" />
+                <img src="../public/images/logo2.png" alt="logo" />
             </div>
             <ul>
                 <li href="#">Menu</li>
@@ -12,6 +12,6 @@ const Navigation =()=>{
             </ul>
             <button>Login</button>
         </nav>
-    </div>
+   )
 }
 export default Navigation;
